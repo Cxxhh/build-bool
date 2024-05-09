@@ -8,4 +8,4 @@ function activate(context) {
   );
 }
 
-module.export = { activate };
+module.exports = { activate };
