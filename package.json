@@ -1,0 +1,16 @@
+{
+  "name": "vscode-hello",
+  "version": "0.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "main": "extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "validate",
+        "title": "Validate VSCode Hello"
+      }
+    ]
+  }
+}
