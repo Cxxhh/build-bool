@@ -1,5 +1,6 @@
 {
   "name": "vscode-hello",
+  "description": "A minimal VSCode hello world extension for demonstration.",
   "version": "0.0.0",
   "engines": {
     "vscode": "^1.75.0"
