@@ -35,7 +35,7 @@ npm install
 在 VSCode 中按 F5 启动扩展
 
 ## ⚙️ 使用指南
-- 从本工程根目录获取 `run.sh` 或 `run.bat`(若自己大有git bash 最好使用shell脚本,因为shell脚本的信息输出更好)
+- 从本工程根目录获取 `run.sh` 或 `run.bat`(若自己以有git bash 最好使用shell脚本,因为shell脚本的信息输出更好)
 - 将其放置在工程根目录下
 - 打开 VSCode，点击状态栏的构建按钮
 - 初次启动时，选择构建脚本（`run.sh` 或 `run.bat`）
