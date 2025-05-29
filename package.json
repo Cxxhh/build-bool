@@ -1,19 +1,24 @@
 {
-  "name": "vscode-hello",
+  "name": "build-bool",
   "description": "A minimal VSCode hello world extension for demonstration.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.75.0"
   },
   "main": "extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "icon": "./ios-build.png", 
   "contributes": {
     "commands": [
-      {
-        "command": "validate",
-        "title": "Validate VSCode Hello"
-      }
+      { "command": "extension.compile", "title": "⚙️ Build" },
+      { "command": "extension.rebuild",   "title": "🔄 Rebuild" },
+      { "command": "extension.clean",   "title": "🧹 Clean" },
+      { "command": "extension.changeScriptFile", "title": "更改/选择构建脚本 (Change/Select Build Script)" } 
     ]
   },
+
+  "categories": [ "Other" ]
+,
   "scripts": {
     "format": "prettier . --write"
   },
