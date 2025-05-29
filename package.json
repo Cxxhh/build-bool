@@ -7,7 +7,7 @@
   },
   "main": "extension.js",
   "activationEvents": ["onStartupFinished"],
-  "icon": "./ios-build.png", 
+  "icon": "images/ios-build.png", 
   "contributes": {
     "commands": [
       { "command": "extension.compile", "title": "⚙️ Build" },
